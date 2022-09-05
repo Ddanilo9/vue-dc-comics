@@ -54,7 +54,7 @@
     color: white;
       .main-up{
         background-color: black;
-        padding: 30px;
+        padding: 40px;
       }
 
       .main-down{
