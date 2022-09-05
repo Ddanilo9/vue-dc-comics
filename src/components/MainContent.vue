@@ -1,8 +1,11 @@
 <template>
   <main>
-    <div class="container">
-      <h1>-->CONTENT GOES HERE</h1>
+    <div class="main-up">
+        <div class="container">
+        <h1>-->CONTENT GOES HERE</h1>
+      </div>
     </div>
+    
     <div class="main-down">
       <div class="container">
         <ul class="menu">
@@ -48,8 +51,11 @@
 
 <style scoped lang="scss">
   main{
-    background-color: black;
     color: white;
+      .main-up{
+        background-color: black;
+        padding: 30px;
+      }
 
       .main-down{
         background-color: #0282F9;

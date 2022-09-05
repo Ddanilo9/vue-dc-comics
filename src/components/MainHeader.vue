@@ -51,9 +51,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 20px 0 20px 0;
 
         img{
             aspect-ratio: 1/1;
+            width: 70px;
         }
     }
 
