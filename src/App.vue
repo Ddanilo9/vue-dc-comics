@@ -1,0 +1,28 @@
+<template>
+  <div class="app">
+    <MainHeader></MainHeader>
+    <main-content></main-content>
+    <main-footer></main-footer>
+  </div>
+</template>
+
+<script>
+import MainHeader from './components/MainHeader.vue';
+import MainContent from './components/MainContent.vue';
+import MainFooter from './components/MainFooter.vue';
+
+
+
+export default {
+  name: 'App',
+  components: {
+    MainHeader,
+    MainContent,
+    MainFooter
+}
+}
+</script>
+
+<style lang="scss">
+  @import './style/index.scss'
+</style>
