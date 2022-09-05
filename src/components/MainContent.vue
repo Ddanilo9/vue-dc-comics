@@ -82,7 +82,8 @@
                       max-width: 20%;
                       margin-right: 8px;
                     }
-              }  }
+                }
+              }
           }
       }
   }

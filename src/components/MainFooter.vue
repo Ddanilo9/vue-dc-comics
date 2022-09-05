@@ -81,7 +81,7 @@
     display: flex;
     background-image: url(@/assets/dc-logo-bg.png);
     background-position: right;
-    background-size: auto;
+    background-size: 40%;
     background-repeat: no-repeat;
 
       .container-links{
@@ -91,6 +91,11 @@
           color: #6E6E6E;
           margin-right: 20px;
           margin-bottom: 10px;
+
+            a{
+              font-size: 12px;
+              font-weight: 600;
+            }
         }
       }
 

@@ -69,6 +69,11 @@
                 text-transform: uppercase;
                 font-size: 14px;
                 font-weight: 500;
+
+                &:hover{
+                    border-bottom: 3px solid #0282F9;
+                    padding-bottom: 33px;
+                }
             }
 
             &:hover{
