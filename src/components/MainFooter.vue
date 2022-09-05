@@ -1,7 +1,15 @@
 <template>
-    <header>
-       <h1>footer</h1>
-    </header>
+    <footer>
+      <div>
+        
+      </div>
+      <div>
+
+      </div>
+      <div>
+        
+      </div>
+    </footer>
 </template>
   
 <script>
