@@ -67,15 +67,22 @@
             display: flex;
             justify-content: space-between;
 
-              a{
+              .menu-links{
                 display: flex;
                 align-items: center;
+              
+                &:nth-child(5)img{
+                  width: 100px;
+                }
+                a{
+                  display: flex;
+                  align-items: center;
 
-                  img{
-                    max-width: 20%;
-                    margin-right: 8px;
-                  }
-              }
+                    img{
+                      max-width: 20%;
+                      margin-right: 8px;
+                    }
+              }  }
           }
       }
   }
