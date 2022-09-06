@@ -115,23 +115,23 @@ import CardsComp from '@/components/CardsComp.vue'
           linksMenu: [
             {
               text: 'Digital Comics',
-              icon: require ('@/assets/buy-comics-digital-comics.png')
+              icon: require ('../assets/buy-comics-digital-comics.png')
             },
             {
               text: 'DC Merchandise',
-              icon: require ('@/assets/buy-comics-merchandise.png')
+              icon: require ('../assets/buy-comics-merchandise.png')
             },
             {
               text: 'Subscription',
-              icon: require ('@/assets/buy-comics-subscriptions.png')
+              icon: require ('../assets/buy-comics-subscriptions.png')
             },
             {
               text: 'comic shop locator',
-              icon: require ('@/assets/buy-comics-shop-locator.png')
+              icon: require ('../assets/buy-comics-shop-locator.png')
             },
             {
               text: 'dc power visa',
-              icon: require ('@/assets/buy-dc-power-visa.svg')
+              icon: require ('../assets/buy-dc-power-visa.svg')
             },
           ]
         }

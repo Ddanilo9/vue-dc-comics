@@ -12,7 +12,7 @@
 </template>
   
 <script>
-    import logo from '@/assets/dc-logo.png'
+    import logo from '../assets/dc-logo.png'
 
   export default {
       data() {

@@ -53,11 +53,11 @@
         <div class="socials">
           <h4>Follow Us</h4>
           <ul>
-            <li><a href=""><img src="@/assets/footer-facebook.png" alt=""></a></li>
-            <li><a href=""><img src="@/assets/footer-twitter.png" alt=""></a></li>
-            <li><a href=""><img src="@/assets/footer-youtube.png" alt=""></a></li>
-            <li><a href=""><img src="@/assets/footer-pinterest.png" alt=""></a></li>
-            <li><a href=""><img src="@/assets/footer-periscope.png" alt=""></a></li>
+            <li><a href=""><img src="../assets/footer-facebook.png" alt=""></a></li>
+            <li><a href=""><img src="../assets/footer-twitter.png" alt=""></a></li>
+            <li><a href=""><img src="../assets/footer-youtube.png" alt=""></a></li>
+            <li><a href=""><img src="../assets/footer-pinterest.png" alt=""></a></li>
+            <li><a href=""><img src="../assets/footer-periscope.png" alt=""></a></li>
           </ul>
         </div>
       </div>
@@ -74,12 +74,12 @@
 
 <style scoped lang="scss">
   .upper-up{
-    background-image: url(@/assets/footer-bg.jpg);
+    background-image: url(../assets/footer-bg.jpg);
     color: white;
   }
   .footer-links{
     display: flex;
-    background-image: url(@/assets/dc-logo-bg.png);
+    background-image: url(../assets/dc-logo-bg.png);
     background-position: right;
     background-size: 40%;
     background-repeat: no-repeat;
