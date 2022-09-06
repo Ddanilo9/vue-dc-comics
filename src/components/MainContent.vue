@@ -4,10 +4,13 @@
       <div class="jumbo">
       </div>
       <div class="container box-cards">
+        
         <CardsComp v-for="(card,i) in cards" :key="i" :titolo="card.series" :src="card.thumb"></CardsComp>
+       <button class="current-series">Current Series</button> 
       </div>
       <div class="button"><button>Load More</button>
-        </div>
+      </div>
+      
     </div>
     
     <div class="main-down">
@@ -156,6 +159,21 @@ import CardsComp from '@/components/CardsComp.vue'
           grid-template-columns: repeat(6, 1fr);
           grid-column-gap: 10px;
           grid-row-gap: 10px;
+          padding-top: 25px;
+          position: relative;
+
+           .current-series{
+            top: -12px;
+            position: absolute;
+            left: 0;
+            background-color: #0282F9;
+            padding: 5px;
+            color: white;
+            text-transform: uppercase;
+            width: 160px;
+            border: none;
+            font-weight: 700;
+           }
         }
         .button{
               display: flex;
@@ -169,6 +187,7 @@ import CardsComp from '@/components/CardsComp.vue'
                 text-transform: uppercase;
                 cursor: pointer;
                 width: 160px;
+                font-size: 12px;
               }
             }
             
