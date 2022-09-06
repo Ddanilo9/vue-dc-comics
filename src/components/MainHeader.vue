@@ -1,37 +1,10 @@
 <template>
     <header>
        <div class="container">
-            <img src="@/assets/dc-logo.png" alt="">
+            <img :src="logo" alt="">
             <ul class="nav">
-                <li class="nav-link">
-                    <a href="">Charachters</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Comics</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Movies</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Tv</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Games</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Collectibles</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Videos</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Fans</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">News</a>
-                </li>
-                <li class="nav-link">
-                    <a href="">Shop</a>
+                <li v-for="(link, i) in links" :key="i" class="nav-link">
+                    <a href="">{{link.text}}</a>
                 </li>
             </ul>
        </div>
@@ -39,8 +12,56 @@
 </template>
   
 <script>
+    import logo from '@/assets/dc-logo.png'
+
   export default {
-      
+      data() {
+        return {
+            logo: logo,
+            links: [
+            {
+                text: 'Charachters',
+                current: false
+            },
+            {
+                text: 'comics',
+                current: false
+            },
+            {
+                text: 'movies',
+                current: false
+            },
+            {
+                text: 'tv',
+                current: false
+            },
+            {
+                text: 'games',
+                current: false
+            },
+            {
+                text: 'collectibles',
+                current: false
+            },
+            {
+                text: 'video',
+                current: false
+            },
+            {
+                text: 'fans',
+                current: false
+            },
+            {
+                text: 'news',
+                current: false
+            },
+            {
+                text: 'shop',
+                current: false
+            },
+            ]
+        }
+      }
   }  
 </script>
   
