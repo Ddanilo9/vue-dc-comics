@@ -16,31 +16,10 @@
     <div class="main-down">
       <div class="container">
         <ul class="menu">
-          <li class="menu-links">
-            <a href="">
-              <img src="@/assets/buy-comics-digital-comics.png" alt="">
-               Digital Comics</a>
-          </li>
-          <li class="menu-links">
-            <a href="">
-              <img src="@/assets/buy-comics-merchandise.png" alt="">
-               Dc Merchandise</a>
-          </li>
-          <li class="menu-links">
-            <a href="">
-              <img src="@/assets/buy-comics-subscriptions.png" alt="">
-               Subscription
-              </a>
-          </li>
-          <li class="menu-links">
-            <a href="">
-              <img src="@/assets/buy-comics-shop-locator.png" alt="">
-               Comic shop locator</a>
-          </li>
-          <li class="menu-links">
-            <a href="">
-              <img src="@/assets/buy-dc-power-visa.svg" alt="">
-               Dc power visa</a>
+          <li v-for="(link, i) in linksMenu" :key="i" class="menu-links">
+            <a href="#nogo">
+              <img :src="link.icon" alt="">
+               {{link.text}}</a>
           </li>
         </ul>
       </div>
@@ -132,6 +111,28 @@ import CardsComp from '@/components/CardsComp.vue'
               "series": "Catwoman",
               "type": "graphic novel"
             }
+          ],
+          linksMenu: [
+            {
+              text: 'Digital Comics',
+              icon: require ('@/assets/buy-comics-digital-comics.png')
+            },
+            {
+              text: 'DC Merchandise',
+              icon: require ('@/assets/buy-comics-merchandise.png')
+            },
+            {
+              text: 'Subscription',
+              icon: require ('@/assets/buy-comics-subscriptions.png')
+            },
+            {
+              text: 'comic shop locator',
+              icon: require ('@/assets/buy-comics-shop-locator.png')
+            },
+            {
+              text: 'dc power visa',
+              icon: require ('@/assets/buy-dc-power-visa.svg')
+            },
           ]
         }
       },
